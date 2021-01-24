@@ -18,3 +18,13 @@ Y respextivamente, para la carpeta frontend se debe ejecutar las siguientes inst
 $ npm install
 $ npm run build
 ```
+En backend/prueba_tbj/settings.py bajo de **DATABASES**, ingresa en el campo **PASSWORD** la contraseña de su base de datos.
+
+Utilizar **POSTMAN** para ejecutar peticiones a la API, por ejemplo:
+
+```sh
+http://localhost:8000/api/prueba/product
+http://localhost:8000/api/prueba/product/1
+http://localhost:8000/api/prueba/product?search=camara
+http://localhost:8000/api/prueba/product?page=1
+```
